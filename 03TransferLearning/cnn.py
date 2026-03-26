@@ -34,7 +34,7 @@ class CNN(nn.Module):
                 for param in layer.parameters():
                     param.requires_grad = True
 
-        # Add a new softmax output layer
+        # Add a new output layer for the classification task
         self.classifier = nn.Sequential(
             nn.Flatten(),
             nn.LazyLinear(num_classes)
