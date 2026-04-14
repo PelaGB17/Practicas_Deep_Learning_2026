@@ -34,7 +34,10 @@ with col1:
     )
 
     if uploaded_file is not None:
-        st.image(uploaded_file, caption=uploaded_file.name, use_container_width=True)
+        try:
+            st.image(uploaded_file, caption=uploaded_file.name, use_container_width=True)
+        except TypeError:
+            st.image(uploaded_file, caption=uploaded_file.name, use_column_width=True)
 
         if st.button("Predict", type="primary"):
             files = {
