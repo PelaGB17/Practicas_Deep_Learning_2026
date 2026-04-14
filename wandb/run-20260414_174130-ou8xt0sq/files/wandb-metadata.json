@@ -1,0 +1,41 @@
+{
+  "os": "Windows-11-10.0.26200-SP0",
+  "python": "CPython 3.12.7",
+  "startedAt": "2026-04-14T15:41:30.454426Z",
+  "args": [
+    "--use-wandb",
+    "--wandb-project",
+    "mlii-final-project",
+    "--epochs",
+    "6",
+    "--batch-size",
+    "32",
+    "--num-workers",
+    "4",
+    "--learning-rate",
+    "1e-4",
+    "--unfreeze-blocks",
+    "1"
+  ],
+  "program": "-m final_project.train",
+  "git": {
+    "remote": "https://github.com/agascong/Practicas_Deep_Learning_2026.git",
+    "commit": "95d22c1ce2844df2e51552884310226b526e7827"
+  },
+  "email": "202404563@alu.comillas.edu",
+  "root": "C:\\Users\\pgarc\\OneDrive - Universidad Pontificia Comillas\\Documentos\\Master\\2_2\\MLII\\Practicas_Deep_Learning_2026",
+  "host": "PelaGB-Laptop",
+  "executable": "C:\\Users\\pgarc\\OneDrive - Universidad Pontificia Comillas\\Documentos\\Master\\2_2\\MLII\\Practicas_Deep_Learning_2026\\dl_lab\\Scripts\\python.exe",
+  "cpu_count": 16,
+  "cpu_count_logical": 22,
+  "disk": {
+    "/": {
+      "total": "1023214088192",
+      "used": "817759268864"
+    }
+  },
+  "memory": {
+    "total": "33685803008"
+  },
+  "writerId": "u0mh32w6i9f8b2sr0ldopfbq9jndzdvd"
+}
